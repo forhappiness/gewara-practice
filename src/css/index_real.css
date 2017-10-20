@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#nav {
+  background-color: #eb6120;
+  margin: 0;
+}
+#nav #dropbtn img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
+#nav .navbar-header {
+  line-height: 50px;
+}
+#nav .navbar-header #gewara_logo {
+  width: 120px;
+  height: 35px;
+}
+#nav .navbar-header .local {
+  width: 100px;
+  text-decoration: none;
+  color: #fffafe;
+}
+#nav .navbar-header .local #site {
+  width: 30px;
+  height: 30px;
+}
+#dropdown {
+  height: 60px;
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  margin-right: 0;
+  width: 30%;
+  background-color: #eb6120;
+}
+#dropdown ul {
+  padding: 0;
+  height: 60px;
+}
+#dropdown ul li {
+  list-style-type: none;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  text-align: center;
+}
+#dropdown ul li:hover {
+  background-color: #cdcdcd;
+}
+#dropdown ul li a {
+  height: 100%;
+  line-height: 30px;
+  color: #fffafe;
+  text-decoration: none;
+}
+#lead_movie {
+  line-height: 100px;
+  border-radius: 4px;
+  margin: 15px;
+  height: 100px;
+  background-color: #eb6120;
+  color: white;
+  box-shadow: 5px 5px 5px #999999;
+}
+#lead_movie p {
+  width: 100%;
+}
+#lead_movie p span {
+  font-size: 22px;
+}
+#lead_movie p strong {
+  font-size: 36px;
+  margin-left: 10px;
+  margin-right: 80px;
+}
+#lead_cinema {
+  line-height: 100px;
+  border-radius: 4px;
+  margin: 15px;
+  height: 100px;
+  background-color: #eb296d;
+  color: white;
+  box-shadow: 5px 5px 5px #cdcdcd;
+}
+#lead_cinema p {
+  width: 100%;
+}
+#lead_cinema p span {
+  font-size: 22px;
+}
+#lead_cinema p strong {
+  font-size: 36px;
+  margin-left: 10px;
+  margin-right: 80px;
+}
