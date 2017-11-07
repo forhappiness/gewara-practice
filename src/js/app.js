@@ -10,15 +10,15 @@ app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
         .when("/movies", {
             controller: 'moviesController',
-            templateUrl: '../html/movies.html'
+            templateUrl: 'src/html/movies.html'
         })
         .when("/cinema", {
             controller: 'cinemaController',
-            templateUrl: '../html/cinema.html'
+            templateUrl: 'src/html/cinema.html'
         })
         .when("/:id",{
             controller:"detailcontroller",
-            templateUrl:"../html/movie-detail.html"
+            templateUrl:"src/html/movie-detail.html"
         })
         // .otherwise({redirectTo: '/movies'});
 }]);
